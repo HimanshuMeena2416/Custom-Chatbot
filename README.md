@@ -18,7 +18,7 @@ You can install these dependencies using pip:
 ```bash
 pip install requests beautifulsoup4 langchain PyPDF2 pyttsx3 SpeechRecognition
 
-Features
+## Features
 Voice Interaction: Uses pyttsx3 for text-to-speech and speech_recognition for speech-to-text interaction.
 Data Ingestion: Supports ingestion from text files (txt), PDF documents, and websites (requests, beautifulsoup4).
 Document Processing: Extracts text from files and websites, splits text into chunks, and creates embeddings using OpenAI's language model via LangChain.

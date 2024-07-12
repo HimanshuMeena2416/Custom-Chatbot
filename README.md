@@ -48,6 +48,3 @@ Ensure all source files (data.txt, data.pdf) exist in the project directory or u
 Adjust voice settings (pyttsx3) based on your preference.
 Feel free to extend or modify the functionality as per your requirements.
 
-``` css
-This should provide a comprehensive overview of your project's functionality and features.
-```

@@ -24,12 +24,14 @@ Data Ingestion: Supports ingestion from text files (txt), PDF documents, and web
 Document Processing: Extracts text from files and websites, splits text into chunks, and creates embeddings using OpenAI's language model via LangChain.
 Conversation Management: Utilizes LangChain for managing conversation history and FAISS for efficient document retrieval.
 User Interaction: Enables users to ask questions via voice or text input and receive responses based on processed documents.
-Usage
+## Usage
 Setting Up Environment Variables:
 
 Replace OPENAI_API_KEY with your OpenAI API key in the script.
 
 Running the Script:
+python your_script_name.py
+
 
 Run the script in your terminal or command prompt:
 

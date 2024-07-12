@@ -25,34 +25,29 @@ Document Processing: Extracts text from files and websites, splits text into chu
 Conversation Management: Utilizes LangChain for managing conversation history and FAISS for efficient document retrieval.
 User Interaction: Enables users to ask questions via voice or text input and receive responses based on processed documents.
 ## Usage
-Setting Up Environment Variables:
+1.Setting Up Environment Variables:
 
 Replace OPENAI_API_KEY with your OpenAI API key in the script.
 
-Running the Script:
-python your_script_name.py
-
-
+2.Running the Script:
 Run the script in your terminal or command prompt:
-
-bash
-Copy code
+```bash
 python your_script_name.py
+```
 The script will greet you based on the time of day and wait for your command either through voice input or text input.
 
-Interaction:
+3.Interaction:
 
 The chatbot listens for your query.
 You can input your question through voice or text.
 It processes documents based on your selection (text file, PDF, or website).
 It then uses OpenAI's language model to generate responses based on the processed documents.
 The chatbot will read out the response aloud (if using voice) and continue the conversation until you say "stop".
-Note
+## Note
 Ensure all source files (data.txt, data.pdf) exist in the project directory or update the paths accordingly in the script.
 Adjust voice settings (pyttsx3) based on your preference.
 Feel free to extend or modify the functionality as per your requirements.
 
-css
-Copy code
-
+```css
 This should provide a comprehensive overview of your project's functionality and features.
+```
